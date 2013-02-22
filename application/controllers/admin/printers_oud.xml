@@ -1,0 +1,105 @@
+<?php
+$xmlstr = <<<XML
+<?xml version='1.0' standalone='yes'?>
+    <printers>
+    <printer>
+    <id>PS_id</id>
+    <merk>merk</merk>
+    <details>Details</details>
+    <model>Model</model>
+    <prijs>Inkoopprijs</prijs>
+   </printer>
+   <printer>
+    <id>28</id>
+    <merk>CANON</merk>
+    <details>CANON MP287 3 IN ONE</details>
+    <model>MP287 3 IN ONE</model>
+    <prijs>31.56</prijs>
+   </printer>
+   <printer>
+    <id>31</id>
+    <merk>CANON</merk>
+    <details>CANON 4820 D (NEW)</details>
+    <model>4820 D (NEW)</model>
+    <prijs>151.96</prijs>
+   </printer>
+   <printer>
+    <id>32</id>
+    <merk>CANON</merk>
+    <details>CANON E 500 PSC INKJET 3 IN 1</details>
+    <model>E 500 PSC INKJET 3 IN</model>
+    <prijs>52.79</prijs>
+   </printer>
+   <printer>
+    <id>35</id>
+    <merk>CANON</merk>
+    <details>CANON E510 PSC INKJET 3 IN O</details>
+    <model>E510 PSC INKJET 3 IN O</model>
+    <prijs>195.53</prijs>
+   </printer>
+   <printer>
+    <id>42</id>
+    <merk>CANON</merk>
+    <details>CANON LBP 2900 (12a toner)</details>
+    <model>LBP 2900 (12a toner)</model>
+    <prijs>65.36</prijs>
+   </printer>
+   <printer>
+    <id>45</id>
+    <merk>CANON</merk>
+    <details>CANON LBP 3300 LASER</details>
+    <model>LBP 3300 LASER</model>
+    <prijs>101.68</prijs>
+   </printer>
+   <printer>
+    <id>48</id>
+    <merk>CANON</merk>
+    <details>CANON LBP 3460</details>
+    <model>LBP 3460</model>
+    <prijs>351.4</prijs>
+   </printer>
+   <printer>
+    <id>51</id>
+    <merk>CANON</merk>
+    <details>CANON LBP 3500 A3 LASER</details>
+    <model>LBP 3500 A3 LASER</model>
+    <prijs>382.68</prijs>
+   </printer>
+   <printer>
+    <id>54</id>
+    <merk>CANON</merk>
+    <details>CANON LBP 5050</details>
+    <model>LBP 5050</model>
+    <prijs>195.53</prijs>
+   </printer>
+   <printer>
+    <id>55</id>
+    <merk>CANON</merk>
+    <details>CANON LBP 5050 N</details>
+    <model>LBP 5050 N</model>
+    <prijs>197.21</prijs>
+   </printer>
+   <printer>
+    <id>56</id>
+    <merk>CANON</merk>
+    <details>CANON LBP 7018C COLOR LASE</details>
+    <model>LBP 7018C COLOR LASE</model>
+    <prijs>151.96</prijs>
+   </printer>
+   <printer>
+    <id>59</id>
+    <merk>CANON</merk>
+    <details>CANON MF 4720W</details>
+    <model>MF 4720W</model>
+    <prijs>159.22</prijs>
+   </printer>
+   <printer>
+    <id>62</id>
+    <merk>CANON</merk>
+    <details>CANON MFP 4550D</details>
+    <model>MFP 4550D</model>
+    <prijs>188.83</prijs>
+   </printer>
+    </printers>
+XML;
+?>

@@ -1,0 +1,393 @@
+<?php
+$xmlstr = <<<XML
+<?xml version='1.0' standalone='yes'?>
+    <printers>
+    <printer>
+    <id>PS_id</id>
+    <merk>merk</merk>
+    <details>Details</details>
+    <model>Model</model>
+    <prijs>Inkoopprijs</prijs>
+   </printer>
+   <printer>
+    <id>28</id>
+    <merk>CANON</merk>
+    <details>CANON MP287 3 IN ONE</details>
+    <model>MP287 3 IN ONE</model>
+    <prijs>31.56</prijs>
+   </printer>
+   <printer>
+    <id>31</id>
+    <merk>CANON</merk>
+    <details>CANON 4820 D (NEW)</details>
+    <model>4820 D (NEW)</model>
+    <prijs>151.96</prijs>
+   </printer>
+   <printer>
+    <id>32</id>
+    <merk>CANON</merk>
+    <details>CANON E 500 PSC INKJET 3 IN 1</details>
+    <model>E 500 PSC INKJET 3 IN</model>
+    <prijs>52.79</prijs>
+   </printer>
+   <printer>
+    <id>35</id>
+    <merk>CANON</merk>
+    <details>CANON E510 PSC INKJET 3 IN O</details>
+    <model>E510 PSC INKJET 3 IN O</model>
+    <prijs>195.53</prijs>
+   </printer>
+   <printer>
+    <id>42</id>
+    <merk>CANON</merk>
+    <details>CANON LBP 2900 (12a toner)</details>
+    <model>LBP 2900 (12a toner)</model>
+    <prijs>65.36</prijs>
+   </printer>
+   <printer>
+    <id>45</id>
+    <merk>CANON</merk>
+    <details>CANON LBP 3300 LASER</details>
+    <model>LBP 3300 LASER</model>
+    <prijs>101.68</prijs>
+   </printer>
+   <printer>
+    <id>48</id>
+    <merk>CANON</merk>
+    <details>CANON LBP 3460</details>
+    <model>LBP 3460</model>
+    <prijs>351.4</prijs>
+   </printer>
+   <printer>
+    <id>51</id>
+    <merk>CANON</merk>
+    <details>CANON LBP 3500 A3 LASER</details>
+    <model>LBP 3500 A3 LASER</model>
+    <prijs>382.68</prijs>
+   </printer>
+   <printer>
+    <id>54</id>
+    <merk>CANON</merk>
+    <details>CANON LBP 5050</details>
+    <model>LBP 5050</model>
+    <prijs>195.53</prijs>
+   </printer>
+   <printer>
+    <id>55</id>
+    <merk>CANON</merk>
+    <details>CANON LBP 5050 N</details>
+    <model>LBP 5050 N</model>
+    <prijs>197.21</prijs>
+   </printer>
+   <printer>
+    <id>56</id>
+    <merk>CANON</merk>
+    <details>CANON LBP 7018C COLOR LASE</details>
+    <model>LBP 7018C COLOR LASE</model>
+    <prijs>151.96</prijs>
+   </printer>
+   <printer>
+    <id>59</id>
+    <merk>CANON</merk>
+    <details>CANON MF 4720W</details>
+    <model>MF 4720W</model>
+    <prijs>159.22</prijs>
+   </printer>
+   <printer>
+    <id>62</id>
+    <merk>CANON</merk>
+    <details>CANON MFP 4550D</details>
+    <model>MFP 4550D</model>
+    <prijs>188.83</prijs>
+   </printer>
+   <printer>
+    <id>65</id>
+    <merk>CANON</merk>
+    <details>CANON MFP 4570DW</details>
+    <model>MFP 4570DW</model>
+    <prijs>261.45</prijs>
+   </printer>
+   <printer>
+    <id>68</id>
+    <merk>CANON</merk>
+    <details>CANON MFP 4750( NEW)</details>
+    <model>MFP 4750( NEW)</model>
+    <prijs>155.31</prijs>
+   </printer>
+   <printer>
+    <id>71</id>
+    <merk>CANON</merk>
+    <details>CANON MP 2170 INKJET 3-IN-1 N</details>
+    <model>MP 2170 INKJET 3-IN-1 N</model>
+    <prijs>32.96</prijs>
+   </printer>
+   <printer>
+    <id>75</id>
+    <merk>CANON</merk>
+    <details>CANON MS 3010 MFP (3 IN 1)</details>
+    <model>MS 3010 MFP (3 IN 1)</model>
+    <prijs>93.85</prijs>
+   </printer>
+   <printer>
+    <id>77</id>
+    <merk>CANON</merk>
+    <details>CANON MX366 ALL IN ONE</details>
+    <model>MX366 ALL IN ONE</model>
+    <prijs>53.63</prijs>
+   </printer>
+   <printer>
+    <id>78</id>
+    <merk>EPSON</merk>
+    <details>EPSON L 110 NEW</details>
+    <model>L 110 NEW</model>
+    <prijs>68.72</prijs>
+   </printer>
+   <printer>
+    <id>81</id>
+    <merk>EPSON</merk>
+    <details>EPSON L 200 (6 CART.)</details>
+    <model>L 200 (6 CART.)</model>
+    <prijs>98.88</prijs>
+   </printer>
+   <printer>
+    <id>84</id>
+    <merk>EPSON</merk>
+    <details>EPSON L 210 (4 CART.)</details>
+    <model>L 210 (4 CART.)</model>
+    <prijs>97.21</prijs>
+   </printer>
+   <printer>
+    <id>87</id>
+    <merk>HP</merk>
+    <details>HP 1000 INKJET</details>
+    <model>1000 INKJET</model>
+    <prijs>17.88</prijs>
+   </printer>
+   <printer>
+    <id>90</id>
+    <merk>HP</merk>
+    <details>HP 1005 LASER 3 IN ONE</details>
+    <model>1005 LASER 3 IN ONE</model>
+    <prijs>126.82</prijs>
+   </printer>
+   <printer>
+    <id>92</id>
+    <merk>HP</merk>
+    <details>HP 1020 LASER</details>
+    <model>1020 LASER</model>
+    <prijs>70.67</prijs>
+   </printer>
+   <printer>
+    <id>94</id>
+    <merk>HP</merk>
+    <details>HP 1025 COLOR LASER</details>
+    <model>1025 COLOR LASER</model>
+    <prijs>133.52000000000001</prijs>
+   </printer>
+   <printer>
+    <id>96</id>
+    <merk>HP</merk>
+    <details>HP 1050 3 IN ONE</details>
+    <model>1050 3 IN ONE</model>
+    <prijs>33.520000000000003</prijs>
+   </printer>
+   <printer>
+    <id>98</id>
+    <merk>HP</merk>
+    <details>HP 1106 LASER</details>
+    <model>1106 LASER</model>
+    <prijs>48.72</prijs>
+   </printer>
+   <printer>
+    <id>103</id>
+    <merk>HP</merk>
+    <details>HP 1108 LASER</details>
+    <model>1108 LASER</model>
+    <prijs>54.97</prijs>
+   </printer>
+   <printer>
+    <id>105</id>
+    <merk>HP</merk>
+    <details>HP 1136 LASER 3 IN ONE</details>
+    <model>1136 LASER 3 IN ONE</model>
+    <prijs>94.97</prijs>
+   </printer>
+   <printer>
+    <id>107</id>
+    <merk>HP</merk>
+    <details>HP 1213 NF LASER 4 IN ONE</details>
+    <model>1213 NF LASER 4 IN ONE</model>d>
+    <prijs>145.81</prijs>
+   </printer>
+   <printer>
+    <id>110</id>
+    <merk>HP</merk>
+    <details>HP 2515 3 IN ONE</details>
+    <model>2515 3 IN ONE</model>
+    <prijs>46.37</prijs>
+   </printer>
+   <printer>
+    <id>112</id>
+    <merk>HP</merk>
+    <details>HP 3515 3 IN ONE</details>
+    <model>3515 3 IN ONE</model>
+    <prijs>57.65</prijs>
+   </printer>
+   <printer>
+    <id>114</id>
+    <merk>HP</merk>
+    <details>HP 3525 3 IN ONE</details>
+    <model>3525 3 IN ONE</model>
+    <prijs>68.44</prijs>
+   </printer>
+   <printer>
+    <id>116</id>
+    <merk>HP</merk>
+    <details>HP 401 D LASER (DUPLEX)</details>
+    <model>401 D LASER (DUPLEX)</model>
+    <prijs>202.79</prijs>
+   </printer>
+   <printer>
+    <id>117</id>
+    <merk>HP</merk>
+    <details>HP 4500 B INKJET .</details>
+    <model>4500 B INKJET .</model>
+    <prijs>47.21</prijs>
+   </printer>
+   <printer>
+    <id>119</id>
+    <merk>HP</merk>
+    <details>HP 4500 H INKJET .</details>
+    <model>4500 H INKJET .</model>
+    <prijs>58.66</prijs>
+   </printer>
+   <printer>
+    <id>121</id>
+    <merk>HP</merk>
+    <details>HP SCCANNER 2410</details>
+    <model>SCCANNER 2410</model>
+    <prijs>32.68</prijs>
+   </printer>
+   <printer>
+    <id>123</id>
+    <merk>LEXMARK</merk>
+    <details>LEXMARK E-260 (DUPLEX)</details>
+    <model>E-260 (DUPLEX)</model>
+    <prijs>76.2</prijs>
+   </printer>
+   <printer>
+    <id>125</id>
+    <merk>LEXMARK</merk>
+    <details>LEXMARK E-260 DN</details>
+    <model>E-260 DN</model>
+    <prijs>123.18</prijs>
+   </printer>
+   <printer>
+    <id>127</id>
+    <merk>LEXMARK</merk>
+    <details>LEXMARK S308 (3 IN 1) wifi</details>
+    <model>S308 (3 IN 1) wifi</model>
+    <prijs>51.4</prijs>
+   </printer>
+   <printer>
+    <id>129</id>
+    <merk>LEXMARK</merk>
+    <details>LEXMARK S409 (4 IN 1) wifi</details>
+    <model>S409 (4 IN 1) wifi</model>
+    <prijs>75.98</prijs>
+   </printer>
+   <printer>
+    <id>130</id>
+    <merk>LEXMARK</merk>
+    <details>LEXMARK X203N (PRO-NET)</details>
+    <model>X203N (PRO-NET)</model>
+    <prijs>100.56</prijs>
+   </printer>
+   <printer>
+    <id>132</id>
+    <merk>PANASONIC</merk>
+    <details>PANASONIC 1500 P/S/C BEST B</details>
+    <model>1500 P/S/C BEST B</model>
+    <prijs>74.86</prijs>
+   </printer>
+   <printer>
+    <id>134</id>
+    <merk>PANASONIC</merk>
+    <details>PANASONIC 1520 P/S/C/F</details>
+    <model>1520 P/S/C/F</model>
+    <prijs>106.15</prijs>
+   </printer>
+   <printer>
+    <id>136</id>
+    <merk>PANASONIC</merk>
+    <details>PANASONIC 1530 P/S/C/ADF</details>
+    <model>1530 P/S/C/ADF</model>
+    <prijs>126.82</prijs>
+   </printer>
+   <printer>
+    <id>139</id>
+    <merk>PANASONIC</merk>
+    <details>PANASONIC 772 P/S/C/F/ADF</details>
+    <model>772 P/S/C/F/ADF</model>
+    <prijs>129.61000000000001</prijs>
+   </printer>
+   <printer>
+    <id>141</id>
+    <merk>PLUSTEK</merk>
+    <details>PLUSTEK OPTICSLIM 2600</details>
+    <model>OPTICSLIM 2600</model>
+    <prijs>28.49</prijs>
+   </printer>
+   <printer>
+    <id>143</id>
+    <merk>RICOH</merk>
+    <details>RICOH AFICIO SP 100 LASER</details>
+    <model>AFICIO SP 100 LASER</model>
+    <prijs>52.79</prijs>
+   </printer>
+   <printer>
+    <id>145</id>
+    <merk>RICOH</merk>
+    <details>RICOH AFICIO SP 100SU P/C/S</details>
+    <model>AFICIO SP 100SU P/C/S</model>
+    <prijs>84.08</prijs>
+   </printer>
+   <printer>
+    <id>144</id>
+    <merk>SAMSUNG</merk>
+    <details>SAMSUNG LASER printer (167</details>
+    <model>LASER printer (167</model>
+    <prijs>50.84</prijs>
+   </printer>
+   <printer>
+    <id>146</id>
+    <merk>TVS</merk>
+    <details>TVS 240 STAR</details>
+    <model>240 STAR</model>
+    <prijs>72.349999999999994</prijs>
+   </printer>
+   <printer>
+    <id>148</id>
+    <merk>XEROX</merk>
+    <details>XEROX COLORLASER/NET 6125</details>
+    <model>COLORLASER/NET 6125</model>
+    <prijs>156.97999999999999</prijs>
+   </printer>
+   <printer>
+    <id>163</id>
+    <merk>XEROX</merk>
+    <details>XEROX LASER 4 IN 1 3220DN</details>
+    <model>LASER 4 IN 1 3220DN</model>
+    <prijs>231.28</prijs>
+   </printer>
+   <printer>
+    <id>164</id>
+    <merk>XEROX</merk>
+    <details>XEROX LASER NET 3250DN</details>
+    <model>LASER NET 3250DN</model>
+    <prijs>351.73</prijs>
+   </printer>
+    </printers>
+XML;
+?>
+
